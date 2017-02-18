@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^/$ /index.php
+RewriteRule ^realisations$ pages/realisations.php
+RewriteRule ^partenaires$ pages/partenaires.php
+RewriteRule ^contact$ pages/contact.php

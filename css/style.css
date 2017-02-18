@@ -1,0 +1,320 @@
+
+@font-face {
+    font-family: "fenwayPark";
+    src: url('../font/fenway-park.ttf');
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+	margin: 0;
+  padding-top: 20px;
+	padding-bottom: 94px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
+}
+
+p {
+  line-height: 1.8em;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.logo {
+  height: 200px;
+}
+
+.logo-img {
+  height: 100%;
+}
+
+.coordonnees-block {
+  display: inline-block;
+  margin-left: 24px;
+  color: #aaa;
+}
+
+.coordonnees-block-first {
+  padding-right: 24px;
+  border-right: 1px solid #aaa;
+}
+
+.coordonnees .glyphicon {
+  padding-right: 14px;
+  display: table-cell;
+}
+
+.coordonnees-block-text {
+  display: table-cell;
+}
+
+.nom-entreprise {
+  margin-top: 25px;
+  margin-bottom: -5px;
+  font-family: "fenwayPark";
+}
+
+.color-orange {
+  color: rgb(207, 86, 39);
+}
+
+.collapse .nav {
+  margin-top: 18px;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: rgb(207, 86, 39);
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.logo-artisan {
+  height: 50px;
+}
+
+.img-accueil {
+  position: relative;
+	height: 55vh;
+	background-image: url('../img/fond.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.h1-accueil {
+  margin: 0;
+  font-size: 60px;
+  color: white;
+}
+
+.h1-accueil hr {
+  border-width: 3px;
+}
+
+.vertical-center {
+	position: absolute;
+	min-height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+
+
+.background-dark {
+  /*background-color: #d2d6d9;*/
+  /*background-color: #eee;*/
+  background-color: #E0E0E0;
+  border-top: solid #D0D0D0 1px;
+}
+
+.background-white {
+  background-color: white;
+  border: solid 1px #D0D0D0;
+  border-radius: 4px;
+}
+
+#accueil .background-white {
+  padding: 45px 30px;
+}
+
+#accueil .background-white h1 {
+  margin: 0;
+  margin-top: 10px;
+}
+
+#realisations .background-white {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+#realisations .background-white h3 {
+  margin-bottom: 20px;
+}
+
+.img-facebook {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.img-facebook img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn-orange {
+  color: #fff;
+  background-color: rgb(207, 86, 39);
+  border-color: rgb(170, 69, 30);
+}
+
+.btn-orange p {
+  margin: -3px;
+  margin-bottom: -10px;
+}
+
+.btn-orange:hover, .btn-orange:active, .btn-orange:focus, .btn-orange:active:hover, .btn-orange:active:focus {
+  color: #fff;
+  background-color: rgb(181, 74, 32);
+  border-color: rgb(150, 60, 25);
+}
+
+#partenaires .logo-partenaire {
+  padding: 22px;
+}
+
+#contact h1 .glyphicon {
+  color: rgb(207, 86, 39);
+}
+
+.vbottom {
+  vertical-align: text-bottom;
+}
+
+.lien-facebook {
+  color: #2B3E91;
+}
+
+.lien-facebook img {
+  margin-right: 4px;
+}
+
+.maps iframe {
+	pointer-events: none;
+}
+
+
+@media (max-width: 767px) {
+
+  body {
+    padding-bottom: 116px;
+  }
+
+  .logo {
+    height: 110px;
+    float: none;
+    padding: 0;
+  }
+
+  .logo-img {
+    height: 110px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-left: 60px;
+  }
+
+  .nom-entreprise {
+    margin-top: 15px;
+  }
+
+  .coordonnees {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .coordonnees-block {
+    margin-left: 2px;
+  }
+
+  .coordonnees-block-first {
+    padding-right: 2px;
+    border: none;
+  }
+
+  .coordonnees .glyphicon {
+    padding-right: 4px;
+  }
+
+  .img-accueil {
+  	height: 49vh;
+  }
+
+  #accueil .background-white {
+    padding: 15px;
+  }
+
+  #accueil .img-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .h1-accueil {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  .vcenter {
+    display: flex;
+    align-items: center;
+	}
+
+  .img-zoom img {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+	}
+
+	.img-zoom:hover img {
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .img-facebook {
+    height: 155px;
+    width: 155px;
+  }
+
+  .modal-lg {
+    width: 700px
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .img-facebook {
+    height: 210px;
+    width: 210px;
+  }
+
+  .modal-lg {
+    width: 900px
+  }
+}
+@media (min-width: 1200px) {
+
+  .img-facebook {
+    height: 260px;
+    width: 260px;
+  }
+
+  .modal-lg {
+    width: 1100px
+  }
+}
