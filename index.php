@@ -26,7 +26,7 @@
       <div class="row text-center">
         <div class="img-accueil">
           <div class="col-sm-12 vertical-center">
-            <h1 class="h1-accueil">
+            <h1 class="h1-accueil text-center">
               Menuisier Charpentier<br>
               <hr width="50%">
             </h1>
