@@ -283,6 +283,11 @@ a:hover {
 		-webkit-transform: scale(1.1);
 		transform: scale(1.1);
 	}
+
+  .modal-body img {
+    max-height: 84vh;
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -293,7 +298,7 @@ a:hover {
   }
 
   .modal-lg {
-    width: 700px
+    width: 730px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -304,7 +309,7 @@ a:hover {
   }
 
   .modal-lg {
-    width: 900px
+    width: 940px;
   }
 }
 @media (min-width: 1200px) {
@@ -315,6 +320,6 @@ a:hover {
   }
 
   .modal-lg {
-    width: 1100px
+    width: 1150px;
   }
 }
