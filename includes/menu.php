@@ -10,7 +10,8 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="/" class="navbar-brand logo"><img src="img/logo_mat-multi-services.jpg" alt="logo mat multi services" class="img-responsive logo-img"></a>
+        <a href="/" class="navbar-brand logo hidden-xs"><img src="img/logo_mat-multi-services.jpg" alt="logo mat multi services" class="img-responsive logo-img"></a>
+        <a class="navbar-brand logo visible-xs-block"><img src="img/logo_mat-multi-services.jpg" alt="logo mat multi services" class="img-responsive logo-img"></a>
       </div>
 
       <div class="coordonnees text-right hidden-xs">

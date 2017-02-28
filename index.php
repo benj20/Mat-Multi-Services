@@ -39,7 +39,7 @@
 
         <div class="container vcenter background-white">
           <div class="col-sm-6 img-padding">
-            <img src="../img/camion.jpg" alt="camion de Mat Multi Services" class="img-responsive img-rounded">
+            <img src="../img/pub.png" alt="camion de Mat Multi Services" class="img-responsive img-rounded">
           </div>
           <div class="col-sm-6">
             <h2>Présentation</h2>

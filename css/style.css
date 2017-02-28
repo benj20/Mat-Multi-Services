@@ -33,8 +33,14 @@ footer p {
 	margin-bottom: 5px;
 }
 
+a {
+	text-decoration: none;
+  color: black;
+}
+
 a:hover {
 	text-decoration: none;
+  color: black;
 }
 
 .logo {
@@ -254,7 +260,7 @@ a:hover {
   }
 
   .img-accueil {
-  	height: 53vh;
+  	height: 50vh;
   }
 
   #accueil .background-white {
