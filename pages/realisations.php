@@ -64,6 +64,7 @@
           id = $(this).find('img').attr('id');
     			id = parseInt(id);
 
+
           var indicatorZoom = document.querySelectorAll('.indicatorZoom');
           if (indicatorZoom.length > 0) {
             for (var l = 0; l < indicatorZoom.length; l++) {
@@ -81,7 +82,9 @@
           elZoomCarouselIndicators = document.getElementById('carousel-indicators');
           elZoomCarouselInner = document.getElementById('carousel-inner');
           elZoom = document.getElementById(idAlbumZoom);
+          $('.text-title-modal').text(elZoom.firstChild.innerHTML);
           elZoom = elZoom.lastChild.childNodes;
+
 
           for (var k = 0; k < elZoom.length; k++) {
             li = document.createElement('li');

@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
 	margin: 0;
   padding-top: 20px;
-	padding-bottom: 94px;
+	padding-bottom: 86px;
   font-family: 'Questrial', sans-serif;
   font-size: 15px;
 }
@@ -27,6 +27,10 @@ footer {
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+
+footer p {
+	margin-bottom: 5px;
 }
 
 a:hover {
@@ -106,6 +110,7 @@ a:hover {
   margin: 0;
   font-size: 60px;
   color: white;
+  letter-spacing: 3px;
 }
 
 .h1-accueil hr {
@@ -249,7 +254,7 @@ a:hover {
   }
 
   .img-accueil {
-  	height: 49vh;
+  	height: 53vh;
   }
 
   #accueil .background-white {
@@ -287,6 +292,15 @@ a:hover {
   .modal-body img {
     max-height: 84vh;
     max-width: 100%;
+  }
+
+  .title-modal {
+    margin: 0;
+  }
+
+  .close span {
+    font-size: 31px;
+    line-height: 0.7;
   }
 }
 

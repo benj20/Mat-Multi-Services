@@ -3,7 +3,11 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="text-center title-modal">
+          <span class="text-title-modal"></span>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </h3>
+
       </div>
       <div class="modal-body">
 
@@ -17,7 +21,7 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox" id="carousel-inner">
             <div class="item itemZoom active">
-            
+
             </div>
           </div>
 
